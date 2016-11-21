@@ -45,6 +45,7 @@ const ImageUploadList = React.createClass({
           previewVisible: true,
         });
       },
+      supportServerRender: true,
     };
     return (
       <div className="clearfix">

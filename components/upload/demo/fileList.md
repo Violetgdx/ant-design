@@ -70,6 +70,7 @@ const MyUpload = React.createClass({
       action: '/upload.do',
       onChange: this.handleChange,
       multiple: true,
+      supportServerRender: true,
     };
     return (
       <Upload {...props} fileList={this.state.fileList}>

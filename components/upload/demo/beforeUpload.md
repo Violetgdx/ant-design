@@ -27,6 +27,7 @@ const props = {
     }
     return isJPG;
   },
+  supportServerRender: true,
 };
 
 ReactDOM.render(

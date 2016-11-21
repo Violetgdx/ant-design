@@ -32,6 +32,7 @@ const props = {
       message.error(`${info.file.name} file upload failed.`);
     }
   },
+  supportServerRender: true,
 };
 
 ReactDOM.render(

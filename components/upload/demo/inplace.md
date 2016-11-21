@@ -37,6 +37,7 @@ const Demo = React.createClass({
         showUploadList={false}
         action="/upload.do"
         onChange={this.handleChange}
+        supportServerRender
       >
         {
           imageUrl ?

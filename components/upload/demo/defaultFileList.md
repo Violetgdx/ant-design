@@ -36,6 +36,7 @@ const props = {
     status: 'done',
     url: 'http://www.baidu.com/yyy.png',
   }],
+  supportServerRender: true,
 };
 
 ReactDOM.render(

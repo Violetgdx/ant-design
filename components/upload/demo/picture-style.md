@@ -33,6 +33,7 @@ const props = {
     url: 'https://os.alipayobjects.com/rmsportal/NDbkJhpzmLxtPhB.png',
     thumbUrl: 'https://os.alipayobjects.com/rmsportal/NDbkJhpzmLxtPhB.png',
   }],
+  supportServerRender: true,
 };
 
 ReactDOM.render(
